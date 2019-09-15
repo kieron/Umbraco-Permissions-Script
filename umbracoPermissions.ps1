@@ -70,6 +70,7 @@ $objects["app_browsers"] = $readExecute
 $objects["app_code"] = $readExecute
 $objects["app_data"] = $modify
 $objects["bin"] = $read
+$objects["views"] = $modify
 $objects["config"] = $modify
 $objects["css"] = $modify
 $objects["data"] = $modify
@@ -78,6 +79,7 @@ $objects["scripts"] = $modify
 $objects["umbraco"] = $modify
 $objects["usercontrols"] = $read
 $objects["web.config"] = $fileModify
+$objects["connectionStrings.secret.config"] = $fileModify
 $objects["xslt"] = $modify
 foreach ($key in $objects.Keys) {
     $path = Join-Path $fullPhysicalPath $key
