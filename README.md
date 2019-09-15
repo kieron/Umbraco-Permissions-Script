@@ -1,1 +1,1 @@
-# Umbraco-Permissions-Script
+# Umbraco Permissions Script
