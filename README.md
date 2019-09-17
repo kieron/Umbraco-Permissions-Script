@@ -6,7 +6,8 @@ Alternatively, if you provide no arguments, the script will use one of three met
 
 ## Options
 
-```$mode = "1" # Choose 1 (cli), 2 (grid picker), or 3 (full windows picker).
+```
+$mode = "1"
 $appPoolAccount = ("IIS_IUSRS")
 $websitesPath = ("C:\websites\")
 $removalMode = $true
