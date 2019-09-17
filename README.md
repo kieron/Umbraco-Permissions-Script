@@ -20,6 +20,6 @@ $removalMode = $true
   
 `$appPoolAccount` is the user you wish to set the permissions for on the items in the website folder.
 
-`$websitesPath` is the folder where your IIS websites live, mine are all sat in `C:\websites\`
+`$websitesPath` is the folder where your IIS websites live, the example above using `C:\websites\`
 
 `$removalMode` is a destructive option, in that it will remove permissions belonging to `$appPoolAccount` before it reapplies them.
