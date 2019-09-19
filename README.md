@@ -14,9 +14,9 @@ $removalMode = $true
 ```
 
 `$mode` takes either `1`, `2`, or `3`. 
-  1 will use the cli input, where you are simply asked to provide the folder name of the website you wish to set permissions on.
-  2 will use the powershell grid picker, which offers a gui for picking.
-  3 will use another gui for picking.
+  1. will use the cli input, where you are simply asked to provide the folder name of the website you wish to set permissions on.
+  2. will use the powershell grid picker, which offers a gui for picking.
+  3. will use another gui for picking.
   
 `$appPoolAccount` is the user you wish to set the permissions for on the items in the website folder.
 
